@@ -1,9 +1,11 @@
-== HOW TO USE
+## DOCKER FOR RAILS 6
 
-  $ rails new test_app -m https://raw.githubusercontent.com/hashdog/rails6_docker_skel/master/docker-template.rb
+## HOW TO USE
 
-  $ cd test_app
+    $ rails new test_app -m https://raw.githubusercontent.com/hashdog/rails6_docker_skel/master/docker-template.rb
 
-  $ docker-compose up
+    $ cd test_app
 
-  $ open page on `localhost:3000`
+    $ docker-compose up
+
+    $ open page on `localhost:3000`
