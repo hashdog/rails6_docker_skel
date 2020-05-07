@@ -8,7 +8,7 @@
   
 ## HOW TO USE
 
-    $ rails new test_app -d postgrel -m https://raw.githubusercontent.com/hashdog/rails6_docker_skel/master/docker-template.rb
+    $ rails new test_app -d postgresql -m https://raw.githubusercontent.com/hashdog/rails6_docker_skel/master/docker-template.rb
 
     $ cd test_app
 
