@@ -1,5 +1,5 @@
 RAILS_PORT=3000
-DATABASE_URL=postgresql://postgres@db
+DATABASE_URL=postgresql://postgres:postgres@db
 RAILS_ENV=development
 WEBPACKER_DEV_SERVER_HOST=0.0.0.0
 NODE_ENV=development
