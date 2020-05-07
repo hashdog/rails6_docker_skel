@@ -1,8 +1,14 @@
 ## DOCKER FOR RAILS 6
-
+  
+  Template for generate your docker configuration files for:
+  
+    * Rails 6
+    * Redis 6
+    * Postgresql 12
+  
 ## HOW TO USE
 
-    $ rails new test_app -m https://raw.githubusercontent.com/hashdog/rails6_docker_skel/master/docker-template.rb
+    $ rails new test_app -d postgrel -m https://raw.githubusercontent.com/hashdog/rails6_docker_skel/master/docker-template.rb
 
     $ cd test_app
 
