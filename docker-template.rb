@@ -9,7 +9,9 @@ run 'unzip docker-skel.zip && cp -af rails6_docker_skel-master/* . && rm -f dock
 run 'cp docker-compose.override.yml-sample docker-compose.override.yml'
 run 'cp Procfile-sample Procfile'
 run 'cp env-sample .env'
-
+run 'touch package.json'
+run 'touch yarn.lock'
+run 'touch .yarnclean'
 # Git ignore
 ########################################
 append_file '.gitignore', <<-TXT
