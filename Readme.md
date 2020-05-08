@@ -12,6 +12,8 @@
 
     $ cd test_app
 
+    $ docker-compose run app yarn install
+
     $ docker-compose up
 
     $ open page on `localhost:3000`
