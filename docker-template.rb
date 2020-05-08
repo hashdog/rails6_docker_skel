@@ -8,6 +8,7 @@ run 'curl -L https://github.com/hashdog/rails6_docker_skel/archive/master.zip > 
 run 'unzip docker-skel.zip && cp -af rails6_docker_skel-master/* . && rm -f docker-template.rb && rm -rf rails6_docker_skel-master && rm docker-skel.zip'
 run 'cp docker-compose.override.yml-sample docker-compose.override.yml'
 run 'cp Procfile-sample Procfile'
+run 'mv database.yml config/'
 run 'cp env-sample .env'
 run 'touch package.json'
 run 'touch yarn.lock'
